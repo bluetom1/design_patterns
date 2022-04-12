@@ -1,52 +1,73 @@
-﻿// ReSharper disable RedundantUsingDirective
-
-using DesignPatterns.创建型;
-using DesignPatterns.结构型;
-
-#region 创建型
-
+﻿
 //// 单例模式
-//SingletonPattern.Test();
+//DesignPatterns.创建型.SingletonPattern.Test();
 
 //// 工厂方法模式
-//FactoryPattern.Test();
+//DesignPatterns.创建型.FactoryPattern.Test();
 
 //// 抽象工厂模式
-//AbstractFactoryPattern.Test();
+//DesignPatterns.创建型.AbstractFactoryPattern.Test();
 
 //// 建造者模式
-//BuilderPattern.Test();
+//DesignPatterns.创建型.BuilderPattern.Test();
 
 //// 原型模式
-//PrototypePattern.Test();
+//DesignPatterns.创建型.PrototypePattern.Test();
 
-#endregion
-
-#region 结构型
 
 //// 适配器模式
-//AdapterPattern.Test();
+//DesignPatterns.结构型.AdapterPattern.Test();
 
 //// 桥接模式
-//BridgePattern.Test();
+//DesignPatterns.结构型.BridgePattern.Test();
 
 //// 装饰者模式
-//DecoratorPattern.Test();
+//DesignPatterns.结构型.DecoratorPattern.Test();
 
 //// 组合模式
-//CompositePattern.Test();
+//DesignPatterns.结构型.CompositePattern.Test();
 
 //// 外观模式
-//FacadePattern.Test();
+//DesignPatterns.结构型.FacadePattern.Test();
 
 //// 享元模式
-//FlyweightPattern.Test();
+//DesignPatterns.结构型.FlyweightPattern.Test();
 
 //// 代理模式
-//ProxyPattern.Test();
+//DesignPatterns.结构型.ProxyPattern.Test();
 
-#endregion
 
-#region 行为型
+//// 责任链模式
+//DesignPatterns.行为型.ChainOfResponsibilityPattern.Test();
 
-#endregion
+//// 命令模式
+//DesignPatterns.行为型.CommandPattern.Test();
+
+//// 解释器模式
+//DesignPatterns.行为型.InterpreterPattern.Test();
+
+//// 迭代器模式
+//DesignPatterns.行为型.IteratorPattern.Test();
+
+//// 中介者模式
+//DesignPatterns.行为型.MediatorPattern.Test();
+
+//// 备忘录模式
+//DesignPatterns.行为型.MementoPattern.Test();
+
+//// 观察者模式
+//DesignPatterns.行为型.ObserverPattern.Test();
+
+//// 状态模式
+//DesignPatterns.行为型.StatePattern.Test();
+
+//// 策略模式
+//DesignPatterns.行为型.StrategyPattern.Test();
+
+//// 模板模式
+//DesignPatterns.行为型.TemplatePattern.Test();
+
+//// 访问者模式
+//DesignPatterns.行为型.VistorPattern.Test();
+
+Console.ReadKey();

@@ -46,8 +46,6 @@ internal class PrototypePattern
         Console.WriteLine(xiaowangClone.GetHashCode());
         Console.WriteLine(xiaoming.Name);
         Console.WriteLine(xiaoming.GetHashCode());
-
-        Console.ReadKey();
     }
 
     public class Person : ICloneable

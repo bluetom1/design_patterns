@@ -31,8 +31,6 @@ internal class FacadePattern
     {
         var facade = new Facade();
         facade.method();
-
-        Console.ReadKey();
     }
 
     public class Facade

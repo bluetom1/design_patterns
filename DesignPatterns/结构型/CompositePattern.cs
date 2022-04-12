@@ -57,8 +57,6 @@ internal class CompositePattern
         {
             Console.WriteLine(file.Name);
         }
-
-        Console.ReadKey();
     }
 
     public abstract class FileObject

@@ -47,8 +47,6 @@ internal class AdapterPattern
         var logAdapter = new LogAdapter();
         ILog iLog2 = new ObjectAdapter(logAdapter);
         iLog2.Write();
-
-        Console.ReadKey();
     }
 
     private interface ILog

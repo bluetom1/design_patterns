@@ -53,8 +53,6 @@ internal class AbstractFactoryPattern
 
         log.Write();
         nlog.Write();
-
-        Console.ReadKey();
     }
 
     public abstract class Factory

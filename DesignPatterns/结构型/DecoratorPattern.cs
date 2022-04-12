@@ -41,8 +41,6 @@ internal class DecoratorPattern
 
         log = new LogDatabaseDecorator(log);
         log.Write();
-
-        Console.ReadKey();
     }
 
     private abstract class Log

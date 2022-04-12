@@ -53,8 +53,6 @@ internal class BuilderPattern
         manager = new Manager(coderB);
         var programB = manager.CreateProgram();
         Console.WriteLine($"程序：{programB}");
-
-        Console.ReadKey();
     }
 
     /// <summary>

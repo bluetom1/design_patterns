@@ -15,8 +15,6 @@ internal class SingletonPattern
         Console.WriteLine(Singleton.Instance.GetHashCode());
         Console.WriteLine(Singleton.Instance.GetHashCode());
         Console.WriteLine(Singleton.Instance.GetHashCode());
-
-        Console.ReadKey();
     }
 
     public sealed class Singleton

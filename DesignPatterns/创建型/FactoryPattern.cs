@@ -36,8 +36,6 @@ internal class FactoryPattern
         LogFactory logFactory = new TxtLogFactory();
         var log = logFactory.Create();
         log.Write();
-
-        Console.ReadKey();
     }
 
     public abstract class LogFactory
